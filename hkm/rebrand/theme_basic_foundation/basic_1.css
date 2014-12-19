@@ -1,0 +1,7 @@
+.ure-sidebar{
+    display: none;
+}
+.users_page_user-role-editor .has-sidebar-content>div{
+    clear:none !important;
+    width:auto !important;
+}

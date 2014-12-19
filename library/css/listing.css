@@ -1,0 +1,209 @@
+.barban .image {
+    opacity: 0.7;
+    -webkit-transition: opacity 0.21s ease-in-out;
+    -moz-transition: opacity 0.21s ease-in-out;
+    -o-transition: opacity 0.21s ease-in-out;
+    transition: opacity 0.21s ease-in-out;
+}
+.barban .barname {
+    text-align: center;
+    color: #F43B7F;
+    font-weight: bold;
+    line-height: 20px;
+    text-shadow: 0px 0px 3px rgb(235, 67, 129);
+}
+.barban:hover .barname {
+    text-shadow: 0px 0px 4px rgb(224, 58, 151), 0px 0px 6px rgb(234, 255, 6);
+    color: rgb(230, 134, 169);
+}
+.barban:hover .image {
+    opacity: 1;
+}
+.linker_bar_wrap .barban {
+    position: relative;
+    display: block;
+    /* clear:both;*/
+    float: left;
+    display: block;
+}
+.linker_bar_wrap .bar > div {
+    display: block;
+    float: left;
+}
+.linker_bar_wrap .barban .image {
+    width: 190px;
+    height: 190px;
+}
+
+.linker_bar_wrap .barban .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    padding: 5px;
+    width: 100%;
+}
+.linker_bar_wrap.listing .barban {
+    position: relative;
+    display: block;
+    margin: 5px;
+    clear: both;
+    display: block;
+}
+.linker_bar_wrap.listing .barname {
+    left: 210px;
+}
+.linker_bar_wrap.listing .info {
+    bottom: 18px;
+    left: 240px;
+}
+@media handheld, only screen and (max-width: 480px) {
+    .linker_bar_wrap .barban .image {
+        width: 150px;
+        height: 150px;
+    }
+    .linker_bar_wrap.listing .barname {
+        top: 10px;
+        left: 160px;
+    }
+    .linker_bar_wrap.listing .info {
+        top: 40px;
+        left: 160px;
+    }
+    .archiveTitleBar span {
+        left: 110px;
+    }
+}
+.ecdrink_activity_coming_wrap .barban {
+    position: relative;
+    clear: both;
+    display: block;
+    margin-bottom: 5px;
+    float: left;
+    height: 234px;
+}
+.ecdrink_activity_coming_wrap .barban .image {
+    overflow: hidden;
+}
+.ecdrink_activity_coming_wrap .barban img {
+    height: 234px;
+    width: auto;
+    max-width: none;
+}
+.ecdrink_activity_coming_wrap .barban:nth-child(2) {
+    clear: none;
+    width: 60%;
+}
+.ecdrink_activity_coming_wrap .barban:nth-child(3) {
+    clear: none;
+    width: 40%;
+}
+.ecdrink_activity_coming_wrap .barban:nth-child(4) {
+    clear: none;
+    width: 30%;
+}
+.ecdrink_activity_coming_wrap .barban:nth-child(5) {
+    clear: none;
+    width: 70%;
+}
+.barban .barname {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    padding: 5px;
+    width: 100%;
+}
+.coupon_box .coming_events .detaillink {
+    min-height: 70px;
+}
+#tabcontent .key_linkrbarfeat {
+    top: 17px;
+    position: relative;
+}
+.linkrbarfeat {
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+}
+.middlepart.bar_features {
+    height: 100%;
+}
+.middlepart.bar_features .linkrbarfeat {
+    background-color: black;
+}
+.linkrbarfeat li:hover {
+    -webkit-box-shadow: 0px 0px 10px rgb(255, 176, 205), inset 0px 0px 10px rgb(255, 176, 205);
+    -moz-box-shadow: 0px 0px 10px rgb(255, 176, 205), inset 0px 0px 10px rgb(255, 176, 205);
+    box-shadow: 0px 0px 10px rgb(255, 176, 205), inset 0px 0px 10px rgb(255, 176, 205);
+    background-color: rgba(255, 0, 94, 0.53);
+}
+.linkrbarfeat li {
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    width: auto;
+    height: 55px;
+    border: 1px solid #F43B7F;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px #F43B7F, inset 0px 0px 10px #F43B7F;
+    -moz-box-shadow: 0px 0px 10px #F43B7F, inset 0px 0px 10px #F43B7F;
+    box-shadow: 0px 0px 10px #F43B7F, inset 0px 0px 10px #F43B7F;
+}
+.linkrbarfeat li a {
+    display: block;
+    height: 100%;
+    padding: 17px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.linkrbarfeat, #list_loactions_filter {
+    position: relative;
+    float: left;
+}
+.meta li.metaline.terms .termssys {
+    display: inline-block;
+}
+#pastevent_container {
+    display: block;
+    width: 100%;
+    min-height: 500px;
+}
+#pastevent_container article {
+    display: inline-block;
+    max-width: 50%;
+    width: 200px;
+    min-height: 300px;
+    padding: 5px;
+    margin-bottom: 3px;
+}
+#pastevent_container article > div {
+    padding: 3px;
+    background-color: rgba(0,0,0,0.8);
+    clear: both;
+    line-height: 30px;
+}
+#pastevent_container article span {
+    display: block;
+    float: left;
+    background-image: url(http://www.ecdrink.com.hk/wp-content/themes/linkr/images/button_single.png);
+    width: 30px;
+    height: 30px;
+}
+#pastevent_container article .date span {
+    background-position: -300px 0;
+}
+#pastevent_container article .time span {
+    background-position: -150px 0;
+}
+#pastevent_container article .place span {
+    background-position: -60px 0;
+}
+.pastevent.maincontentright {
+
+}

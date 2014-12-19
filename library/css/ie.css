@@ -1,0 +1,291 @@
+/* Foundation v2.1.4 http://foundation.zurb.com */
+/* This is for all IE specfific style less than IE9. We hate IE. */
+
+div.panel {
+    border: 1px solid #ccc;
+}
+.lt-ie8 .nav-bar li.has-flyout a {
+    padding-right: 20px;
+}
+.lt-ie8 .nav-bar li.has-flyout a:after {
+    border-top: none;
+}
+.ie7 .entry.nine.columns, .ie8 .entry.nine.columns, .ie9 .entry.nine.columns {
+    margin-left: 1.2%;
+}
+.ie8 .barname {
+    background: black;
+}
+#gridbutton.ie8 {
+    width: 40px;
+    height: 40px;
+}
+/*fix for ie8 view*/
+#singlecontent._ie8 .partyarrangement, #singlecontent._ie8 .barsingle_row, #singlecontent._ie8 .coupon {
+    width: 840px;
+}
+#singlecontent._ie8 .coming_events.loop_in_tab, #singlecontent._ie8 .coupon a.coming_events {
+    width: 100%;
+    display: block;
+}
+#singlecontent._ie8 .activity .coming_events .time {
+    width: 220px;
+}
+#singlecontent._ie8 .activity .coming_events .shopname {
+    width: 320px;
+}
+#singlecontent._ie8 .activity .coming_events .poster {
+    background: black height :100%;
+}
+#singlecontent._ie8 .partyarrangement > div {
+    width: 840px;
+}
+#singlecontent._ie8 .linker-event .single_content._ie8, #singlecontent._ie8 .columns.partyarrangement {
+    margin-left: 0px;
+}
+#singlecontent._ie8 .endback_single_coupon {
+    position: absolute;
+    right: -220px;
+}
+#singlecontent._ie8 .linker-event .bannersection .row, #singlecontent._ie8 .linker-event .single_content._ie8, #singlecontent._ie8 .singlecoupon {
+    width: 840px;
+}
+#singlecontent._ie8 .adbar {
+    display: table-cell;
+}
+.columns._ie8 {
+    margin-left: 150px;
+}
+#singlecontent._ie8 {
+    width: 840px;
+}
+#part_coupon._ie8.front {
+    width: 450px;
+    right: -200px;
+}
+#part_coupon._ie8 .front-clip {
+    display: none;
+}
+.locations._ie8 .submegaLocations.MegaSub, .locations._ie8 #list_loactions_filter {
+    display: none;
+}
+.locations._ie8 #pub_overview {
+    width: 480px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+._ie8#tabcontent, ._ie8#tabcontent > div {
+    display: inline-block;
+    width: 842px;
+}
+.topnavmenu_ie8 {
+    width: 100%;
+    background: -ms-linear-gradient(top, rgba(51,0,35,0.8) 0%,rgba(77,0,51,1) 44%,rgba(84,0,55,1) 56%,rgba(109,1,71,0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc330023', endColorstr='#cc6d0147',GradientType=0 );
+}
+.topnavmenu_ie8 > li {
+    width: auto;
+}
+.rightside_media_widget .linkrarea li, .topnavmenu_ie8 > li {
+    list-style: none;
+}
+/* -----------------------------------------
+ TOP MENU
+ ----------------------------------------- */
+.topnavmenu_ie8 > li.ectab {
+    width: 160px;
+    background-position: -0px 0;
+}
+.topnavmenu_ie8 > li.ectab:hover {
+    background-position: -0px -50px;
+}
+.topnavmenu_ie8 > li.ectab:active {
+    background-position: -0px -100px;
+}
+.topnavmenu_ie8 > li.ectab.active, .topnavmenu_ie8 > li.ectab.active, .topnavmenu_ie8 > li.ectab.current_page_item, .topnavmenu_ie8 > li.ectab.current_main_bar {
+    background-position: -0px -150px;
+}
+.topnavmenu_ie8 > li.submegaLocations {
+    width: 120px;
+    background-position: -160px 0;
+}
+.topnavmenu_ie8 > li.submegaLocations:hover {
+    background-position: -160px -50px;
+}
+.topnavmenu_ie8 > li.submegaLocations:active {
+    background-position: -160px -100px;
+}
+.topnavmenu_ie8 > li.submegaLocations.active, .topnavmenu_ie8 > li.submegaLocations.active, .topnavmenu_ie8 > li.submegaLocations.current_page_item, .topnavmenu_ie8 > li.submegaLocations.current_main_bar {
+    background-position: -160px -150px;
+}
+.topnavmenu_ie8 > li.submegaType {
+    width: 170px;
+    background-position: -280px 0;
+}
+.topnavmenu_ie8 > li.submegaType:hover {
+    background-position: -280px -50px;
+}
+.topnavmenu_ie8 > li.submegaType:active {
+    background-position: -280px -100px;
+}
+.topnavmenu_ie8 > li.submegaType.active, .topnavmenu_ie8 > li.submegaType.active, .topnavmenu_ie8 > li.submegaType.current_page_item, .topnavmenu_ie8 > li.submegaType.current_main_bar {
+    background-position: -280px -150px;
+}
+.topnavmenu_ie8 > li.activitytab {
+    width: 170px;
+    background-position: -450px 0;
+}
+.topnavmenu_ie8 > li.activitytab:hover {
+    background-position: -450px -50px;
+}
+.topnavmenu_ie8 > li.activitytab:active {
+    background-position: -450px -100px;
+}
+.topnavmenu_ie8 > li.activitytab.active, .topnavmenu_ie8 > li.activitytab.active, .topnavmenu_ie8 > li.activitytab.current_page_item, .topnavmenu_ie8 > li.activitytab.current_main_bar {
+    background-position: -450px -150px;
+}
+.topnavmenu_ie8 > li.coupontab {
+    width: 145px;
+    background-position: -620px 0;
+}
+.topnavmenu_ie8 > li.coupontab:hover {
+    background-position: -620px -50px;
+}
+.topnavmenu_ie8 > li.coupontab:active {
+    background-position: -620px -100px;
+}
+.topnavmenu_ie8 > li.coupontab.active, .topnavmenu_ie8 > li.coupontab.active, .topnavmenu_ie8 > li.coupontab.current_page_item, .topnavmenu_ie8 > li.coupontab.current_main_bar {
+    background-position: -620px -150px;
+}
+.topnavmenu_ie8 > li.promotetab {
+    width: 170px;
+    background-position: -765px 0;
+}
+.topnavmenu_ie8 > li.promotetab:hover {
+    background-position: -765px -50px;
+}
+.topnavmenu_ie8 > li.promotetab:active {
+    background-position: -765px -100px;
+}
+.topnavmenu_ie8 > li.promotetab.active, .topnavmenu_ie8 > li.promotetab.active, .topnavmenu_ie8 > li.promotetab.current_page_item, .topnavmenu_ie8 > li.promotetab.current_main_bar {
+    background-position: -765px -150px;
+}
+.topnavmenu_ie8 > li:nth-child(7) {
+    width: 205px;
+    background-position: -935px 0;
+}
+.topnavmenu_ie8 > li:nth-child(7):hover {
+    background-position: -935px -50px;
+}
+.topnavmenu_ie8 > li:nth-child(7):active {
+    background-position: -935px -100px;
+}
+.topnavmenu_ie8 > li:nth-child(7).active, .topnavmenu_ie8 > li:nth-child(7).active, .topnavmenu_ie8 > li:nth-child(7).current_page_item, .topnavmenu_ie8 > li:nth-child(7).current_main_bar {
+    background-position: -935px -150px;
+}
+.topnavmenu_ie8 > li > a {
+    font-size: 1px !important;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.topnavmenu_ie8 li .MegaSub {
+    display: none;
+    z-index: 99999;
+}
+.topnavmenu_ie8 > li {
+    line-height: 45px;
+    background-image: url(http://www.ecdrink.com.hk/wp-content/themes/linkr/images/button_home_menu.png);
+}
+.topnavmenu_ie8 li.sfHover .MegaSub {
+    display: block;
+    visibility: visible;
+    background: white;
+}
+.rightside_media_widget._ie8 {
+    padding-top: 20px;
+}
+.rightside_media_widget._ie8 .bardetail {
+    margin-top: 0px;
+}
+.rightside_media_widget .linkrarea {
+    display: block;
+    height: 30px;
+}
+.rightside_media_widget .linkrarea li {
+    float: left;
+    line-height: 40px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.coupon_box._ie8 {
+
+}
+.coupon_box._ie8 .shopname {
+    width: 120px;
+}
+.coupon_box._ie8 .club.people {
+    width: 200px;
+}
+.coupon_box._ie8 .time {
+    width: 200px;
+}
+.coupon_box._ie8 .detaillink {
+    width: 200px;
+}
+.coupon_box._ie8 .coming_events, .activitylisting._ie8 .coming_events {
+    height: 100%;
+    display: block;
+    width: 100%;
+}
+.coupon_box._ie8 .coming_events.first .time {
+    width: 160px;
+}
+.activitylisting._ie8 > .innerwrapper, .activitylisting._ie8 {
+    display: inline-block;
+}
+.topnavmenu_ie8 {
+    width: 100%;
+    background: -ms-linear-gradient(top, rgba(51,0,35,0.8) 0%,rgba(77,0,51,1) 44%,rgba(84,0,55,1) 56%,rgba(109,1,71,0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc330023', endColorstr='#cc6d0147',GradientType=0 );
+}
+.topnavmenu_ie8 > li {
+    width: auto;
+    background-image: none;
+}
+.topnavmenu_ie8 > li > a, .topnavmenu_ie8 > li {
+    font-size: 23px !important;
+    display: block;
+    height: 45px;
+    color: white;
+    font-family: 微軟正黑體,"lucida grande",tahoma,verdana,arial,sans-serif,新細明體 !important;
+}
+.topnavmenu_ie8 .MegaSub {
+    display: none;
+}
+.topnavmenu_ie8 > li {
+    line-height: 45px;
+}
+
+.eq-ie8 .shopname {
+    width: 100px;
+}
+.eq-ie8 .poster {
+    width: 100px;
+}
+.eq-ie8 .maincontentright {
+    height: 100%;
+}
+.eq-ie8 .innerwrapper {
+    height: 100%;
+    clear: both;
+}
+.eq-ie8 .sidepart.six.column {
+    display: inline-block;
+}
+.eq-ie8 .advertisement_400 {
+    clear: both;
+    display: inline-table;
+}

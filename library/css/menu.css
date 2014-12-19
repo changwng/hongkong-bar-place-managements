@@ -1,0 +1,312 @@
+li a {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    text-overflow: ellipsis;
+    color: white;
+    text-decoration: none;
+    display: block;
+    -webkit-animation: appear 0.2s;
+    -webkit-animation-name: appear;
+    -webkit-animation-duration: 0.2s;
+    -webkit-animation-timing-function: initial;
+    -webkit-animation-delay: initial;
+    -webkit-animation-iteration-count: initial;
+    -webkit-animation-direction: initial;
+    -webkit-animation-fill-mode: initial;
+}
+/* -----------------------------------------
+ TOP MENU
+ ----------------------------------------- */
+/**-- menu_home for homepage --**/
+.topnavmenu > li.menu_home {
+    width: 160px;
+    background-position: -0px 0;
+}
+.topnavmenu > li.menu_home:hover {
+    background-position: -0px -50px;
+}
+.topnavmenu > li.menu_home:active {
+    background-position: -0px -100px;
+}
+.topnavmenu > li.menu_home.active, .topnavmenu > li.menu_home.active, .topnavmenu > li.menu_home.current_page_item, .topnavmenu > li.menu_home.current_main_bar {
+    background-position: -0px -150px;
+}
+/**-- menu_loc for location page --**/
+.topnavmenu > li.menu_loc {
+    width: 120px;
+    background-position: -160px 0;
+}
+.topnavmenu > li.menu_loc:hover {
+    background-position: -160px -50px;
+}
+.topnavmenu > li.menu_loc:active {
+    background-position: -160px -100px;
+}
+.topnavmenu > li.menu_loc.active, .topnavmenu > li.menu_loc.active, .topnavmenu > li.menu_loc.current_page_item, .topnavmenu > li.menu_loc.current_main_bar {
+    background-position: -160px -150px;
+}
+/**-- menu_bartype for the bar type page --**/
+.topnavmenu > li.menu_bartype {
+    width: 170px;
+    background-position: -280px 0;
+}
+.topnavmenu > li.menu_bartype:hover {
+    background-position: -280px -50px;
+}
+.topnavmenu > li.menu_bartype:active {
+    background-position: -280px -100px;
+}
+.topnavmenu > li.menu_bartype.active, .topnavmenu > li.menu_bartype.active, .topnavmenu > li.menu_bartype.current_page_item, .topnavmenu > li.menu_bartype.current_main_bar {
+    background-position: -280px -150px;
+}
+/**-- menu_events for the bar events page --**/
+.topnavmenu > li.menu_events {
+    width: 170px;
+    background-position: -450px 0;
+}
+.topnavmenu > li.menu_events:hover {
+    background-position: -450px -50px;
+}
+.topnavmenu > li.menu_events:active {
+    background-position: -450px -100px;
+}
+.topnavmenu > li.menu_events.active, .topnavmenu > li.menu_events.active, .topnavmenu > li.menu_events.current_page_item, .topnavmenu > li.menu_events.current_main_bar {
+    background-position: -450px -150px;
+}
+/**-- menu_coupons for the coupon page --**/
+.topnavmenu > li.menu_coupons {
+    width: 145px;
+    background-position: -620px 0;
+}
+.topnavmenu > li.menu_coupons:hover {
+    background-position: -620px -50px;
+}
+.topnavmenu > li.menu_coupons:active {
+    background-position: -620px -100px;
+}
+.topnavmenu > li.menu_coupons.active, .topnavmenu > li.menu_coupons.active, .topnavmenu > li.menu_coupons.current_page_item, .topnavmenu > li.menu_coupons.current_main_bar {
+    background-position: -620px -150px;
+}
+/**-- menu_sp_promotion for the special promotional page --**/
+.topnavmenu > li.menu_sp_promotion {
+    width: 170px;
+    background-position: -765px 0;
+}
+.topnavmenu > li.menu_sp_promotion:hover {
+    background-position: -765px -50px;
+}
+.topnavmenu > li.menu_sp_promotion:active {
+    background-position: -765px -100px;
+}
+.topnavmenu > li.menu_sp_promotion.active, .topnavmenu > li.menu_sp_promotion.active, .topnavmenu > li.menu_sp_promotion.current_page_item, .topnavmenu > li.menu_sp_promotion.current_main_bar {
+    background-position: -765px -150px;
+}
+/**-- menu_facebook_login for the special promotional page --**/
+.topnavmenu > li.menu_facebook_login {
+    width: 205px;
+    background-position: -935px 0;
+}
+.topnavmenu > li.menu_facebook_login:hover {
+    background-position: -935px -50px;
+}
+.topnavmenu > li.menu_facebook_login:active {
+    background-position: -935px -100px;
+}
+.topnavmenu > li.menu_facebook_login.active, .topnavmenu > li.menu_facebook_login.active, .topnavmenu > li.menu_facebook_login.current_page_item, .topnavmenu > li.menu_facebook_login.current_main_bar {
+    background-position: -935px -150px;
+}
+.topnavmenu > li {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    background-image: url(http://www.ecdrink.com.hk/wp-content/themes/linkr/images/button_home_menu.png);
+    font-size: 0;
+    list-style: none;
+    float: left;
+}
+
+.topnavmenu a {
+    margin: 0;
+    font-size: 0px;
+    padding: 0;
+    display: block;
+    height: 50px;
+    width: 100%;
+}
+.topnavmenu {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    z-index: 10;
+}
+/*==============extra config==============*/
+.topnavmenu > li > a, .topnavmenu > li {
+    font-size: 0 !important;
+}
+
+.topnavmenu a {
+    margin: 0;
+    font-size: 0px;
+    padding: 0;
+    display: block;
+    height: 45px;
+    width: 100%;
+}
+.topnavmenu {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+
+.topnavmenu > li.current_page_item {
+    -webkit-animation: flash3 10s 2s infinite linear;
+    -moz-animation: flash3 10s 2s infinite linear;
+    -o-animation: flash3 10s 2s infinite linear;
+    animation-name: flash3 10s 2s infinite linear;
+}
+.topnavmenu > li:hover.current_page_item, .topnavmenu > li:hover {
+    -webkit-animation: flash2 .25s 1 linear;
+    -moz-animation: flash2 .25s 1 linear;
+    -o-animation: flash2 .25s 1 linear;
+    animation-name: flash2 .25s 1 linear;
+}
+.topnavmenu > li.submegaLocations:hover, .topnavmenu > li.submegaType:hover {
+    -webkit-animation: fade .25s 1 linear !important;
+    -moz-animation: fade .25s 1 linear !important;
+    -o-animation: fade .25s 1 linear !important;
+    animation-name: fade .25s 1 linear !important;
+}
+.submegaLocations.MegaSub, .submegaType.MegaSub {
+    display: none;
+    z-index: 999;
+    background: rgba(0,0,0,0.8);
+}
+
+.submegaType.MegaSub > ul.linkrbarfeat, .submegaLocations.MegaSub {
+    -moz-box-shadow: -1px 20px 48px #000000;
+    -webkit-box-shadow: -1px 20px 48px #000000;
+    box-shadow: -1px 20px 48px #000000;
+}
+.submegaType.MegaSub {
+    position: relative;
+}
+
+.MegaSub li, .submegaType.MegaSub .linkrbarfeat {
+    background: rgba(0,0,0,0.8);
+}
+
+.eq-ie8 .MegaSub li, .eq-ie8  .submegaType.MegaSub .linkrbarfeat, .eq-ie8 .submegaLocations.MegaSub, .eq-ie8  .submegaType.MegaSub {
+    background: black;
+}
+.featured_bars_mega {
+    display: inline-block;
+}
+.featured_bars_mega .cell:hover {
+    -webkit-animation: flash2 .25s 1 linear;
+    -moz-animation: flash2 .25s 1 linear;
+    -o-animation: flash2 .25s 1 linear;
+    animation-name: flash2 .25s 1 linear;
+    -webkit-filter: grayscale(0.5) blur(1px);
+    filter: grayscale(0.5) blur(1px);
+    background-color: rgba(200,200,200,0.8);
+}
+.featured_bars_mega .cell {
+    float: left;
+}
+.featured_bars_mega .cell img {
+    width: 40px;
+}
+.submegaLocations.MegaSub.active:hover, .submegaType.MegaSub.active:hover, .submegaLocations.MegaSub.active, .submegaType.MegaSub.active {
+    display: block;
+}
+.MegaSub li a {
+    text-shadow: 0px 0px 3px #F43B7F;
+    color: #F43B7F !important;
+    display: block;
+    height: 100%;
+    padding-top: 14% !important;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.MegaSub li {
+    list-style: none;
+    float: left;
+    margin-left: 5px;
+    text-align: right;
+    width: 100px;
+    height: 50px;
+}
+.MegaSub li a {
+    border: none !important;
+}
+.submegaLocations.MegaSub .linkrarea {
+    width: 100%;
+    display: inline-block;
+    margin-left: 0px;
+}
+.submegaLocations.MegaSub .linkrarea li {
+    width: 100px;
+    height:200px;
+}
+.submegaLocations.MegaSub li a {
+    text-align: left;
+    padding: 6px;
+    display:block;
+    float:left;
+    width:100%;
+    height:100%;
+}
+.submegaLocations.MegaSub li a:hover{
+    color: black !important;
+    text-shadow: 0px 0px 3px #F43B7F, 0px 0px 6px #F43B7F, 0px 0px 8px #F43B7F;
+}
+.submegaLocations.MegaSub li:hover {
+   background: #610838;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYxMDgzOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEyJSIgc3RvcC1jb2xvcj0iI2VmNzdiNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #610838 0%, #ef77b5 12%, #000000 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#610838), color-stop(12%,#ef77b5), color-stop(100%,#000000));
+background: -webkit-linear-gradient(top,  #610838 0%,#ef77b5 12%,#000000 100%);
+background: -o-linear-gradient(top,  #610838 0%,#ef77b5 12%,#000000 100%);
+background: -ms-linear-gradient(top,  #610838 0%,#ef77b5 12%,#000000 100%);
+background: linear-gradient(to bottom,  #610838 0%,#ef77b5 12%,#000000 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#610838', endColorstr='#000000',GradientType=0 );
+
+
+}
+li:hover > .MegaSub {
+    display: block;
+}
+.submegaType .MegaSub li:hover a, .submegaLocations .MegaSub li:hover a {
+    display: block;
+    text-shadow: 0px 0px 3px #F43B7F;
+    color: rgb(255, 176, 205) !important;
+}
+.topnavmenu .MegaSub {
+    display: none;
+}
+
+.submegaLocations.MegaSub .sf_container {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+/*.topnavmenu_ie8 li .MegaSub{
+ display:none !important;
+ }.topnavmenu_ie8 li.hover .MegaSub{
+ display:block !important;
+ }
+ .topnavmenu_ie8 li.hover{
+ background-color:white !important;
+ }*/
+/*
+ .topnavmenu_ie8 li .MegaSub{
+ display:none;
+ visibility:hidden;
+ }
+ .topnavmenu_ie8 li:hover .MegaSub{
+ display:block !important;
+ visibility:visible !important;
+ }
+ */
